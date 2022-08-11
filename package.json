@@ -1,0 +1,55 @@
+{
+  "name": "vue-range-slider",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Created By makaraman",
+  "author": {
+    "name": "Mucahid Ali Karaman"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.13",
+    "@vue/cli-service": "~4.5.13",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "vue-range-slider@1.0.0",
+  "license": "ISC",
+  "readme": "ERROR: No README data found!"
+}
