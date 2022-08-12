@@ -7,7 +7,7 @@
       <div class="block mb-3">
         <!-- Component Name -->
         <h5 class="text-2xl font-semibold tracking-tight text-gray-900">
-          Vue Range Slider Component
+          Vue Double Range Slider Component
         </h5>
         <!-- ./Component Name -->
 
@@ -22,8 +22,9 @@
       </div>
       <!-- Title -->
 
+      <hr class="my-3" />
       <!-- RangeSlider -->
-      <RangeSlider :min="min" :max="max" v-model="values" />
+      <RangeSlider step="10" min="1" max="100" v-model="values" />
       <!-- ./RangeSlider -->
     </div>
   </div>
@@ -39,9 +40,7 @@ export default {
   },
   data() {
     return {
-      min: 1,
-      max: 300,
-      values: [50, 295],
+      values: [1, 100],
     };
   },
 };
