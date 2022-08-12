@@ -1,5 +1,12 @@
 # vue-double-range-slider
 
+Customized Double Range Slider with: 
+- VueJS v3
+- TailwindCSS
+
+Live [DEMO](https://vercel.com/makaraman/vue-double-range-slider)
+
+
 ## Project setup
 ```
 npm install
