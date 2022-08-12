@@ -1,4 +1,4 @@
-# vue-range-slider
+# vue-double-range-slider
 
 ## Project setup
 ```
