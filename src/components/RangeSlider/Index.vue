@@ -18,6 +18,12 @@
       class="absolute pointer-events-none appearance-none z-20 h-2 w-full opacity-0"
     />
 
+    <div class="block my-5">
+      <div class="flex align-items-center justify-between">
+        <div v-if="labels.length">{{ labels[0] }}</div>
+        <div v-if="labels.length > 0">{{ labels[1] }}</div>
+      </div>
+    </div>
     <div class="relative z-10 h-2">
       <!-- Empty Bar -->
       <div
