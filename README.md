@@ -1,24 +1,24 @@
-# vue-double-range-slider
 
-## Project setup
-```
-npm install
-```
+# Vue Double Range Slider Component
+A Component created with VueJs v3 & TailwindCSS
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Check it out
+[Live Demo](https://vercel.com/makaraman/vue-double-range-slider)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Props
 
-### Lints and fixes files
-```
-npm run lint
-```
+| Name | Type   | Default     | Description                |
+| :--- | :----- | :---------- | :--------------------------|
+| `min` | String \| Number | 0 | Minimum value of the range slider |
+| `max` | String \| Number | 0 | Maximum value of the range slider |
+| `step` | String \| Number | 0 | It is used to specify how many digits to jump at once|
+| `labels` | Array | ['Min.', 'Max.'] | Labels for the min & max value|
+| `modelValue` | Array | [0, 1] | Key for v-model. It emit events with [min, max] values|
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Events  
+
+| Name | Payload | Description                |
+| :--- | :------ | :--------------------------|
+| `update:modelValue` | Array [min, max] | Event for v-model key. Similar with `$emit('input', value)` |
+| `change:minValue` | Number | Min. Value |
+| `change:maxValue` | Number | Max. Value |
