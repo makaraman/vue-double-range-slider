@@ -3,7 +3,7 @@
 A Component created with VueJs v3 & TailwindCSS
 
 ## Check it out
-[Live Demo](https://vercel.com/makaraman/vue-double-range-slider)
+[Live Demo](https://vue-double-range-slider.vercel.app/)
   
 ## Usage
 ```javascript
